@@ -24,7 +24,7 @@ h1, h2, h3 { font-family: 'Orbitron', monospace !important; color: #ff9944 !impo
 st.markdown("# ☄️ ASTEROID DETECTOR")
 st.markdown("<p style='color:rgba(255,153,68,0.6);font-family:Orbitron;font-size:10px;letter-spacing:3px;'>POWERED BY NASA NEOWS API · REAL-TIME NEAR EARTH OBJECTS</p>", unsafe_allow_html=True)
 
-API_KEY = st.sidebar.text_input("🔑 NASA API Key", type="password")
+API_KEY = "R4F7iqYocSnbZUk1NbkNNOvlxuJtdOnwL5lG0c9Q"
 st.sidebar.markdown("[Get free key →](https://api.nasa.gov)", unsafe_allow_html=True)
 st.sidebar.divider()
 st.sidebar.markdown("**About**")
